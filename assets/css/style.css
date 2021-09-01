@@ -1,0 +1,38 @@
+.main-header{
+  color:darkcyan;
+  text-align: center;
+  text-transform: capitalize;
+  font-family:'Allison', cursive;
+}
+
+.align-center{
+  text-align: center;
+  font-size: 10px;
+}
+.art-header{
+  color:magenta;
+  font-size: 36px;
+  text-transform: capitalize;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+}
+
+.art-header+p{
+  font-size: 22px;
+  font-weight: 200;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 42px;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.page-link{
+  /* text-decoration: none; */
+  text-decoration: overline 3px double red;
+}
+.align-center{
+  text-align: center;
+  font-size: 10px;
+}
