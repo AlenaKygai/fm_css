@@ -1,38 +1,19 @@
-.main-header{
-  color:darkcyan;
-  text-align: center;
-  text-transform: capitalize;
-  font-family:'Allison', cursive;
+.main-article{
+font-size: 60px;
+border: limegreen 5px dotted;
+color: magenta;
 }
 
-.align-center{
-  text-align: center;
-  font-size: 10px;
-}
-.art-header{
-  color:magenta;
-  font-size: 36px;
-  text-transform: capitalize;
-  font-family: 'Merriweather', serif;
-  font-style: italic;
+.article-header{
+font-size: 1.1em;
+border: inherit;
 }
 
-.art-header+p{
-  font-size: 22px;
-  font-weight: 200;
-  font-style: italic;
-  font-family: 'Courier New', Courier, monospace;
-  line-height: 42px;
-  text-align: justify;
-  font-family: 'Montserrat', sans-serif;
-  
+.article-content{
+font-size: initial;
 }
 
-.page-link{
-  /* text-decoration: none; */
-  text-decoration: overline 3px double red;
-}
-.align-center{
-  text-align: center;
-  font-size: 10px;
+.article-link{
+  color: inherit;
+  text-decoration: none;
 }
