@@ -1,13 +1,15 @@
-/* *{
-  margin: 0;
-  padding: 0;
-} */
-ul{
-  list-style-type: lower-roman;
-  list-style-position: inside;
+th, td{
+  border: 1px solid #555;
+  vertical-align: top;
+  text-align: left;
 }
-ol{
-  list-style-type: square;
-  list-style-image: url('./../images/account-plus.png');
-  list-style-position: inside;
+table{
+  border-collapse: collapse;
+  min-width: 500px;
+  width: 100%;
+  max-width: 1110px;
+  empty-cells: hide;
+}
+caption{
+  text-align: right;
 }
