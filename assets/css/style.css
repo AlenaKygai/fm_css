@@ -1,40 +1,15 @@
-.navigation{
-
+ul:first-child{
+  color: red;
 }
-.link-list{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+li:last-child{
+  color:pink;
 }
-.link-list>li{
-  display: inline-block;
+li:nth-child(3){
+  color: green;
 }
-.page-link{
-  display: block;
-  padding: 35px;
-  background-color: coral;
-  color:#000;
-  text-decoration: none;
-  font-size: 1.5em;
+button:disabled{
+  border: 2px solid red;
 }
-.page-link:link{
-  background-color: red;
-}
-.page-link:visited{
-  color: aqua;
-  background-color: blueviolet;
-}
-.page-link:hover:not(button){
-  color: white;
-}
-.page-link:focus{
-  border-radius: 50%;
-  outline: none;
-}
-.page-link:active{
-  background-color: blueviolet;
-}
-div:focus{
-  background-color: indigo;
+*:target{
+  color: red;
 }
