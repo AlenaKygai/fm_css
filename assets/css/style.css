@@ -1,22 +1,40 @@
-:root{
-  --main-font-size:20px;
-}
-/* p+p{
-  color: red;
-}
-p+div{
-  color: teal;
-} */
-/* p~div{
+.navigation{
 
-} */
-#container > p ~ div{
-  font-size: var(--main-font-size);
 }
-
-p:hover{
-  background-color: violet;
+.link-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
-.inner-block>p:hover{
-  background-color: green;
+.link-list>li{
+  display: inline-block;
+}
+.page-link{
+  display: block;
+  padding: 35px;
+  background-color: coral;
+  color:#000;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.page-link:link{
+  background-color: red;
+}
+.page-link:visited{
+  color: aqua;
+  background-color: blueviolet;
+}
+.page-link:hover:not(button){
+  color: white;
+}
+.page-link:focus{
+  border-radius: 50%;
+  outline: none;
+}
+.page-link:active{
+  background-color: blueviolet;
+}
+div:focus{
+  background-color: indigo;
 }
