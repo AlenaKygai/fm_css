@@ -1,63 +1,18 @@
-*{
-  box-sizing: border-box;
+p{
+  cursor: pointer;
 }
-body{
-  margin: o;
-  height: 300vh;
-}
-.wrapper-out{
-  width: 80%;
-  height: 700px;
-  margin: 20px auto;
-  background-color: blueviolet;
-}
-.wrapper{
-  width: 80%;
-  height: 700px;
-  margin: 20px auto;
-  background-color: pink;
-}
-.inner{
-  background-color: chartreuse;
+
+p::first-letter{
   font-size: 2em;
-  z-index: 1;
+  color: red;
+  font-weight: bold;
 }
-.sizes{
-  width: 100px;
-  height: 100px;
-  border: 3px solid #000;
+p::first-line{
+  background-color:rgb(28, 238, 109);
+  color: beige;
 }
-.relative{
-  position: relative;
-}
-.position{
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 999;
-  background-color: darkblue;
-  color: #000;
-  /* right: 0;
-  top: 100vh; */
-}
-/* .fixed{
-  position: fixed;
-} */
-/* .top{
-  top:0;
-}
-.left{
-  left:0;
-}
-.right{
-  right: 0px;
-}
-.bottom{
-  bottom: 0px;
-} */
-.rezise{
-  width: 150px;
-  background-color: coral;
+p::selection{
+  color: violet;
+  background-color:yellowgreen;
+  text-shadow: 1px 2px 3px #000;
 }
