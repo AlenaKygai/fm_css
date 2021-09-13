@@ -73,7 +73,7 @@ a{
   width: 100%;
 }
 .linear{
-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 .ease-in{
   transition-timing-function: ease-in;
@@ -84,17 +84,6 @@ transition-timing-function: linear;
 .ease-in-out{
   transition-timing-function: ease-in-out;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 h1{
